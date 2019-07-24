@@ -4,6 +4,7 @@ module.exports = () => ({
   output: {
     filename: 'bundle.js' // [chunkhash].js for hashing js file
   },
+  devtool: 'source-map', // creates full sourceMap to your bundle file
   module: {
     rules: [
       {
